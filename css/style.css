@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Peralta", cursive;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  img,
+  svg {
+    vertical-align: middle;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1320px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .col {
+    width: 100%;
+  }
+  header {
+    background-image: 
+    padding: 0.5rem;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .nav_list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav_item {
+    margin: 0 0 0 1.5rem;
+  }
+  .nav_link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .nav_link:hover,
+  .nav_link:focus {
+    opacity: 0.65;
+  }
+  
+  .intro-section {
+    background-color: rgb(34, 31, 31);
+    padding: 8rem 0 0 0;
+  }
+  
+  .display-2 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 400;
+  }
+  .display-2-intro {
+    font-weight: 700;
+    display: inline-block;
+  }
+  
+  .discografia-charly {
+    padding-top: 1rem;
+    text-align: center;
+    background-color: rgb(34, 31, 31);
+    color: white;
+    margin-top: 0;
+  }
+  .bio-charly {
+    padding-top: 2rem;
+    text-align: center;
+    background-color: rgb(34, 31, 31);
+    color: white;
+    margin-top: 0;
+  }
+  .portada-charly {
+    display: flex;
+    width: 100%;
+  }
+  .charly-joven {
+    display: flex;
+    justify-content: center;
+  }
+  .charly-snm {
+    display: flex;
+    justify-content: center;
+  }
+  .charly-cd-random-color {
+    display: flex;
+    justify-content: center;
+  }
+  .charly-bigote {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .display-2-description {
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+    display: inline-block;
+  }
+  
+  .img-box {
+    margin-top: 0;
+    text-align: right;
+  }
+  .section-info {
+    padding-top: 2rem;
+    text-align: center;
+    background-color: rgb(34, 31, 31);
+    color: white;
+    margin-top: 0;
+  }
+  
+  /*ESTILO DE FOOTER*/
+  
+  footer {
+    padding-top: 4rem;
+    background-color: black;
+  }
+  .footer-sm {
+    background-color: #212121;
+    color: white;
+  }
+  .footer-sm-gr {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+  }
+  .footer-sm a {
+    color: white;
+  }
+  .footer-sm a i {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .footer-sm_icons {
+    text-align: right;
+    padding: 1.5rem 0;
+  }
+  .footer-bottom {
+    padding: 1.5rem 0;
+  }
